@@ -4,15 +4,15 @@ import numpy as np
 import pyautogui
 
 running = True
-dino = cv2.imread(".\Python\Dino Run Cheat\Dino.png")
+dino = cv2.imread("Dino.png")
 dino_gray = cv2.cvtColor(dino, cv2.COLOR_BGR2GRAY)
-template = cv2.imread(".\Python\Dino Run Cheat\obstacle.png")
+template = cv2.imread("obstacle.png")
 template_gray = cv2.cvtColor(template, cv2.COLOR_BGR2GRAY)
-template2 = cv2.imread(".\Python\Dino Run Cheat\obstacle2.png")
+template2 = cv2.imread("obstacle2.png")
 template_gray2 = cv2.cvtColor(template2, cv2.COLOR_BGR2GRAY)
-template3 = cv2.imread(".\Python\Dino Run Cheat\obstacle3.png")
+template3 = cv2.imread("obstacle3.png")
 template_gray3 = cv2.cvtColor(template3, cv2.COLOR_BGR2GRAY)
-template4 = cv2.imread(".\Python\Dino Run Cheat\obstacle4.png")
+template4 = cv2.imread("obstacle4.png")
 template_gray4= cv2.cvtColor(template4, cv2.COLOR_BGR2GRAY)
 
 obstacles = [template_gray, template_gray2, template_gray3, template_gray4]
